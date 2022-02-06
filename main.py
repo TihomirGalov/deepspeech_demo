@@ -32,7 +32,7 @@ class RecordingThread(threading.Thread):
                              device=None,
                              input_rate=DEFAULT_SAMPLE_RATE,
                              file=None)
-        file = open(f"media/{datetime.now()}_session.txt", "w")
+        file = open(f"media/{datetime.datetime.now()}_session.txt", "w")
         frames = vad_audio.vad_collector()
         stream_context = model.createStream()
         for frame in frames:
