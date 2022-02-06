@@ -1,6 +1,4 @@
-
 import collections
-
 import queue
 import wave
 
@@ -144,4 +142,3 @@ class VADAudio(Audio):
                     triggered = False
                     yield None
                     ring_buffer.clear()
-
