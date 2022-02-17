@@ -3,6 +3,8 @@
 DeepSpeech is a simple GUI implementation of the DeepSpeech library, to record your microphone and export the conversations as .txt files
 ## Installation
 
+Important: the project supports versions of Python - 3.5, 3.6, 3.7, 3.8 and 3.9
+
 Install all the project requirements
 ```bash
 pip3 install -r requirements.txt
